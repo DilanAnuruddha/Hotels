@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FEEDB2F5256F564600F670BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB2F4256F564600F670BD /* AppDelegate.swift */; };
-		FEEDB2F9256F564600F670BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB2F8256F564600F670BD /* HomeViewController.swift */; };
 		FEEDB2FE256F564900F670BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEDB2FD256F564900F670BD /* Assets.xcassets */; };
 		FEEDB301256F564900F670BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEDB2FF256F564900F670BD /* LaunchScreen.storyboard */; };
 		FEEDB30C256F564900F670BD /* HotelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB30B256F564900F670BD /* HotelsTests.swift */; };
@@ -20,6 +19,15 @@
 		FEEDB353256F67BC00F670BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB352256F67BC00F670BD /* Constants.swift */; };
 		FEEDB359256F707A00F670BD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FEEDB358256F707A00F670BD /* Alamofire */; };
 		FEEDB35F256F728500F670BD /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FEEDB35E256F728500F670BD /* FacebookLogin */; };
+		FEEDB367256F783700F670BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB366256F783700F670BD /* LoginViewController.swift */; };
+		FEEDB37A256F833100F670BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB379256F833100F670BD /* HomeViewController.swift */; };
+		FEEDB38A256F905C00F670BD /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB389256F905C00F670BD /* Hotel.swift */; };
+		FEEDB390256F933800F670BD /* HotelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB38F256F933800F670BD /* HotelCell.swift */; };
+		FEEDB398256F95D400F670BD /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB397256F95D400F670BD /* Services.swift */; };
+		FEEDB39F256FB44D00F670BD /* HotelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB39E256FB44D00F670BD /* HotelViewModel.swift */; };
+		FEEDB3A4256FD3BF00F670BD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB3A3256FD3BF00F670BD /* DetailViewController.swift */; };
+		FEEDB3AF256FDE4300F670BD /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB3AE256FDE4300F670BD /* LocationViewController.swift */; };
+		FEEDB3B4256FF4FF00F670BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB3B3256FF4FF00F670BD /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +50,6 @@
 /* Begin PBXFileReference section */
 		FEEDB2F1256F564600F670BD /* Hotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEDB2F4256F564600F670BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEEDB2F8256F564600F670BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FEEDB2FD256F564900F670BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEEDB300256F564900F670BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEEDB302256F564900F670BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +64,15 @@
 		FEEDB348256F64BC00F670BD /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		FEEDB34D256F664900F670BD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		FEEDB352256F67BC00F670BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FEEDB366256F783700F670BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FEEDB379256F833100F670BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FEEDB389256F905C00F670BD /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		FEEDB38F256F933800F670BD /* HotelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelCell.swift; sourceTree = "<group>"; };
+		FEEDB397256F95D400F670BD /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		FEEDB39E256FB44D00F670BD /* HotelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelViewModel.swift; sourceTree = "<group>"; };
+		FEEDB3A3256FD3BF00F670BD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FEEDB3AE256FDE4300F670BD /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		FEEDB3B3256FF4FF00F670BD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,7 @@
 		FEEDB2F3256F564600F670BD /* Hotels */ = {
 			isa = PBXGroup;
 			children = (
+				FEEDB38E256F91DF00F670BD /* Views */,
 				FEEDB33D256F63AB00F670BD /* Service */,
 				FEEDB33C256F636D00F670BD /* Common */,
 				FEEDB33B256F632100F670BD /* Models */,
@@ -143,7 +160,10 @@
 		FEEDB339256F62F500F670BD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FEEDB2F8256F564600F670BD /* HomeViewController.swift */,
+				FEEDB366256F783700F670BD /* LoginViewController.swift */,
+				FEEDB379256F833100F670BD /* HomeViewController.swift */,
+				FEEDB3A3256FD3BF00F670BD /* DetailViewController.swift */,
+				FEEDB3AE256FDE4300F670BD /* LocationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +171,7 @@
 		FEEDB33A256F630000F670BD /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				FEEDB39E256FB44D00F670BD /* HotelViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -158,6 +179,8 @@
 		FEEDB33B256F632100F670BD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FEEDB389256F905C00F670BD /* Hotel.swift */,
+				FEEDB3B3256FF4FF00F670BD /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,8 +200,17 @@
 		FEEDB33D256F63AB00F670BD /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				FEEDB397256F95D400F670BD /* Services.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		FEEDB38E256F91DF00F670BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDB38F256F933800F670BD /* HotelCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,13 +350,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEDB390256F933800F670BD /* HotelCell.swift in Sources */,
 				FEEDB33F256F63E800F670BD /* Alert.swift in Sources */,
 				FEEDB34E256F664900F670BD /* Extensions.swift in Sources */,
-				FEEDB2F9256F564600F670BD /* HomeViewController.swift in Sources */,
+				FEEDB398256F95D400F670BD /* Services.swift in Sources */,
 				FEEDB349256F64BC00F670BD /* Components.swift in Sources */,
+				FEEDB38A256F905C00F670BD /* Hotel.swift in Sources */,
+				FEEDB367256F783700F670BD /* LoginViewController.swift in Sources */,
+				FEEDB3AF256FDE4300F670BD /* LocationViewController.swift in Sources */,
+				FEEDB3B4256FF4FF00F670BD /* User.swift in Sources */,
 				FEEDB353256F67BC00F670BD /* Constants.swift in Sources */,
+				FEEDB3A4256FD3BF00F670BD /* DetailViewController.swift in Sources */,
+				FEEDB37A256F833100F670BD /* HomeViewController.swift in Sources */,
 				FEEDB344256F643300F670BD /* CheckConnection.swift in Sources */,
 				FEEDB2F5256F564600F670BD /* AppDelegate.swift in Sources */,
+				FEEDB39F256FB44D00F670BD /* HotelViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
