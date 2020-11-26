@@ -26,7 +26,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
                             <constraint firstItem="3Vw-1B-pz3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pNR-ko-Hc4"/>
                             <constraint firstItem="3Vw-1B-pz3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sAQ-8D-rOY"/>
@@ -40,8 +40,8 @@
     </scenes>
     <resources>
         <image name="logo" width="250" height="250"/>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
