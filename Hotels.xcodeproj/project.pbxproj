@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FEEDB2F5256F564600F670BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB2F4256F564600F670BD /* AppDelegate.swift */; };
-		FEEDB2F7256F564600F670BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB2F6256F564600F670BD /* SceneDelegate.swift */; };
-		FEEDB2F9256F564600F670BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB2F8256F564600F670BD /* ViewController.swift */; };
-		FEEDB2FC256F564600F670BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEDB2FA256F564600F670BD /* Main.storyboard */; };
+		FEEDB2F9256F564600F670BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB2F8256F564600F670BD /* HomeViewController.swift */; };
 		FEEDB2FE256F564900F670BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEDB2FD256F564900F670BD /* Assets.xcassets */; };
 		FEEDB301256F564900F670BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEDB2FF256F564900F670BD /* LaunchScreen.storyboard */; };
 		FEEDB30C256F564900F670BD /* HotelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB30B256F564900F670BD /* HotelsTests.swift */; };
 		FEEDB317256F564900F670BD /* HotelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB316256F564900F670BD /* HotelsUITests.swift */; };
+		FEEDB33F256F63E800F670BD /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB33E256F63E800F670BD /* Alert.swift */; };
+		FEEDB344256F643300F670BD /* CheckConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB343256F643300F670BD /* CheckConnection.swift */; };
+		FEEDB349256F64BC00F670BD /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB348256F64BC00F670BD /* Components.swift */; };
+		FEEDB34E256F664900F670BD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB34D256F664900F670BD /* Extensions.swift */; };
+		FEEDB353256F67BC00F670BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDB352256F67BC00F670BD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,7 @@
 /* Begin PBXFileReference section */
 		FEEDB2F1256F564600F670BD /* Hotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEDB2F4256F564600F670BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEEDB2F6256F564600F670BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEEDB2F8256F564600F670BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FEEDB2FB256F564600F670BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEEDB2F8256F564600F670BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FEEDB2FD256F564900F670BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEEDB300256F564900F670BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEEDB302256F564900F670BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		FEEDB312256F564900F670BD /* HotelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEDB316256F564900F670BD /* HotelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsUITests.swift; sourceTree = "<group>"; };
 		FEEDB318256F564900F670BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEDB33E256F63E800F670BD /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		FEEDB343256F643300F670BD /* CheckConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckConnection.swift; sourceTree = "<group>"; };
+		FEEDB348256F64BC00F670BD /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		FEEDB34D256F664900F670BD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FEEDB352256F67BC00F670BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,12 @@
 		FEEDB2F3256F564600F670BD /* Hotels */ = {
 			isa = PBXGroup;
 			children = (
+				FEEDB33D256F63AB00F670BD /* Service */,
+				FEEDB33C256F636D00F670BD /* Common */,
+				FEEDB33B256F632100F670BD /* Models */,
+				FEEDB33A256F630000F670BD /* ViewModels */,
+				FEEDB339256F62F500F670BD /* Controllers */,
 				FEEDB2F4256F564600F670BD /* AppDelegate.swift */,
-				FEEDB2F6256F564600F670BD /* SceneDelegate.swift */,
-				FEEDB2F8256F564600F670BD /* ViewController.swift */,
-				FEEDB2FA256F564600F670BD /* Main.storyboard */,
 				FEEDB2FD256F564900F670BD /* Assets.xcassets */,
 				FEEDB2FF256F564900F670BD /* LaunchScreen.storyboard */,
 				FEEDB302256F564900F670BD /* Info.plist */,
@@ -126,6 +134,47 @@
 				FEEDB318256F564900F670BD /* Info.plist */,
 			);
 			path = HotelsUITests;
+			sourceTree = "<group>";
+		};
+		FEEDB339256F62F500F670BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDB2F8256F564600F670BD /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FEEDB33A256F630000F670BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FEEDB33B256F632100F670BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEEDB33C256F636D00F670BD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDB33E256F63E800F670BD /* Alert.swift */,
+				FEEDB343256F643300F670BD /* CheckConnection.swift */,
+				FEEDB348256F64BC00F670BD /* Components.swift */,
+				FEEDB34D256F664900F670BD /* Extensions.swift */,
+				FEEDB352256F67BC00F670BD /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FEEDB33D256F63AB00F670BD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +282,6 @@
 			files = (
 				FEEDB301256F564900F670BD /* LaunchScreen.storyboard in Resources */,
 				FEEDB2FE256F564900F670BD /* Assets.xcassets in Resources */,
-				FEEDB2FC256F564600F670BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEEDB2F9256F564600F670BD /* ViewController.swift in Sources */,
+				FEEDB33F256F63E800F670BD /* Alert.swift in Sources */,
+				FEEDB34E256F664900F670BD /* Extensions.swift in Sources */,
+				FEEDB2F9256F564600F670BD /* HomeViewController.swift in Sources */,
+				FEEDB349256F64BC00F670BD /* Components.swift in Sources */,
+				FEEDB353256F67BC00F670BD /* Constants.swift in Sources */,
+				FEEDB344256F643300F670BD /* CheckConnection.swift in Sources */,
 				FEEDB2F5256F564600F670BD /* AppDelegate.swift in Sources */,
-				FEEDB2F7256F564600F670BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FEEDB2FA256F564600F670BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEEDB2FB256F564600F670BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FEEDB2FF256F564900F670BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithdilan.Hotels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithdilan.Hotels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
