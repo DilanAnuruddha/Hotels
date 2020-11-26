@@ -7,9 +7,9 @@
 
 import Foundation
 import UIKit
+import MapKit
 
 extension UIView {
-    
     //Add multiple views and ready to set autolayout constraints.
     func addSubViews(_ views:UIView...) {
         views.forEach({
@@ -50,5 +50,33 @@ extension UIViewController {
             loader.isHidden = true
             loaderBackground.removeFromSuperview()
         }
+    }
+}
+
+extension UIImageView {
+    //Download the image async & set it to imageView
+    func setImage(url: URL) {
+        let task = URLSession.shared.dataTask(with: url){ (data , response , error) in
+            if error != nil {
+                return
+            }
+            DispatchQueue.main.async {
+                self.image = UIImage(data: data!)
+            }
+        }
+        task.resume()
+    }
+}
+
+extension MKMapView {
+    //Map recenter to the location
+    func centerToLocation(_ location: CLLocation, regionRadius : CLLocationDistance = 1000) {
+        let coordinateRegion = MKCoordinateRegion (
+            center : location.coordinate,
+            latitudinalMeters: regionRadius,
+            longitudinalMeters: regionRadius
+        )
+        
+        setRegion(coordinateRegion, animated: true)
     }
 }
